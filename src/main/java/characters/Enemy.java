@@ -12,7 +12,7 @@ public abstract class Enemy {
         return this.healthPoints;
     }
 
-    public void takeDamage(int hitPoints){
+    public void takeDamage(double hitPoints){
         this.healthPoints-=hitPoints;
     }
 }
