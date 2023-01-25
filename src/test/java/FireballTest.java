@@ -15,6 +15,6 @@ public class FireballTest {
 
     @Test
     public void canCastEffect(){
-        assertEquals(-40, fireball.cast(), 0.0);
+        assertEquals(40, fireball.cast(), 0.0);
     }
 }

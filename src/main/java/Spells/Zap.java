@@ -1,10 +1,10 @@
 package Spells;
 
-public class Heal implements ISpell{
+public class Zap implements ISpell{
 
     private static double effect;
 
-    public Heal() {
+    public Zap() {
         this.effect = 20;
     }
 

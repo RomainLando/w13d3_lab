@@ -1,16 +1,16 @@
-import Spells.Heal;
+import Spells.Zap;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class HealTest {
+public class ZapTest {
 
-    Heal heal;
+    Zap heal;
 
     @Before
     public void before(){
-        heal = new Heal();
+        heal = new Zap();
     }
 
     @Test
