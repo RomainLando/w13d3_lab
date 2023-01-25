@@ -2,7 +2,7 @@ package characters;
 
 public abstract class Enemy {
 
-    double healthPoints;
+    private double healthPoints;
 
     public Enemy(double healthPoints) {
         this.healthPoints = healthPoints;

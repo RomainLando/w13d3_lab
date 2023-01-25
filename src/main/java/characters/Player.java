@@ -2,8 +2,8 @@ package characters;
 
 public abstract class Player {
 
-    String name;
-    double healthPoints;
+    private String name;
+    private double healthPoints;
 
     public Player(String name, double healthPoints) {
         this.name = name;
