@@ -1,5 +1,5 @@
 import characters.Knight;
-import characters.Orc;
+import Enemies.Orc;
 import org.junit.Before;
 import org.junit.Test;
 import weapons.Club;

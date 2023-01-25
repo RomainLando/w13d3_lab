@@ -1,5 +1,6 @@
 package characters;
 
+import Enemies.Enemy;
 import weapons.IWeapon;
 
 public abstract class Fighter extends Player{

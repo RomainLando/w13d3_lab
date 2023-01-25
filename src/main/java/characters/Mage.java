@@ -19,5 +19,5 @@ public abstract class Mage extends Player{
         this.defender = defender;
     }
 
-    
+
 }

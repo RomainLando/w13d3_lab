@@ -1,5 +1,5 @@
 import characters.Dwarf;
-import characters.Orc;
+import Enemies.Orc;
 import org.junit.Before;
 import org.junit.Test;
 import weapons.Axe;

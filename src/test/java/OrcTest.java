@@ -1,5 +1,4 @@
-import characters.Orc;
-import characters.Troll;
+import Enemies.Orc;
 import org.junit.Before;
 import org.junit.Test;
 
