@@ -17,4 +17,16 @@ public abstract class Player {
     public double getHealthPoints() {
         return healthPoints;
     }
+
+    public void increaseHealthPoints(double amount){
+        if (100 - this.healthPoints > amount){
+            this.healthPoints+=amount;
+        } else {
+            this.healthPoints = 100;
+        }
+    }
+
+    public void decreaseHealthPoints(double amount){
+        this.healthPoints-=amount;
+    }
 }
